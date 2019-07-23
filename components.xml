@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Artifacts>
+  <Artifact Id="Firebase.ABTesting" NugetVersion="2.0.0.2" MinimunSupportedVersion="8.0" ComponentGroup="Firebase" CsprojName="ABTesting">
+    <PodSpecs>
+      <PodSpec Name="Firebase" Version="5.8.1" TargetName="Firebase" FrameworkName="Firebase" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true">
+        <SubSpecs>
+          <SubSpec>ABTesting</SubSpec>
+        </SubSpecs>
+      </PodSpec>
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Firebase.AdMob" NugetVersion="7.38.0" MinimunSupportedVersion="8.0" ComponentGroup="Firebase" CsprojName="AdMob">
+    <PodSpecs>
+      <PodSpec Name="Firebase" Version="5.16.0" TargetName="Firebase" FrameworkName="Firebase" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true">
+        <SubSpecs>
+          <SubSpec>AdMob</SubSpec>
+        </SubSpecs>
+      </PodSpec>
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Firebase.Analytics" NugetVersion="5.5.0" MinimunSupportedVersion="8.0" ComponentGroup="Firebase" CsprojName="Analytics">
+    <PodSpecs>
+      <PodSpec Name="Firebase" Version="5.16.0" TargetName="Firebase" FrameworkName="Firebase" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true">
+        <SubSpecs>
+          <SubSpec>Analytics</SubSpec>
+        </SubSpecs>
+      </PodSpec>
+      <PodSpec Name="GoogleAppMeasurement" Version="5.5.0" TargetName="GoogleAppMeasurement" FrameworkName="GoogleAppMeasurement" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true" />
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Firebase.Auth" NugetVersion="5.0.4.1" MinimunSupportedVersion="8.0" ComponentGroup="Firebase" CsprojName="Auth">
+    <PodSpecs>
+      <PodSpec Name="Firebase" Version="5.8.1" TargetName="FirebaseAuth" FrameworkName="FirebaseAuth" UseDefaultSubSpecs="false" FrameworkSource="Pods" CanBeBuild="true">
+        <SubSpecs>
+          <SubSpec>Auth</SubSpec>
+        </SubSpecs>
+      </PodSpec>
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Firebase.CloudFirestore" NugetVersion="0.13.3" MinimunSupportedVersion="8.0" ComponentGroup="Firebase" CsprojName="CloudFirestore">
+    <PodSpecs>
+      <PodSpec Name="Firebase" Version="5.8.1" TargetName="FirebaseFirestore" FrameworkName="FirebaseFirestore" UseDefaultSubSpecs="false" FrameworkSource="Pods" CanBeBuild="true">
+        <SubSpecs>
+          <SubSpec>Firestore</SubSpec>
+        </SubSpecs>
+      </PodSpec>
+      <PodSpec Name="BoringSSL" Version="10.0.6" TargetName="BoringSSL" FrameworkName="openssl" UseDefaultSubSpecs="false" FrameworkSource="Pods" CanBeBuild="true" />
+      <PodSpec Name="gRPC-ProtoRPC" Version="1.14.0" TargetName="gRPC-ProtoRPC" FrameworkName="ProtoRPC" UseDefaultSubSpecs="false" FrameworkSource="Pods" CanBeBuild="true" />
+      <PodSpec Name="gRPC" Version="1.14.0" TargetName="gRPC" FrameworkName="GRPCClient" UseDefaultSubSpecs="false" FrameworkSource="Pods" CanBeBuild="true" />
+      <PodSpec Name="gRPC-Core" Version="1.14.0" TargetName="gRPC-Core" FrameworkName="grpc" UseDefaultSubSpecs="false" FrameworkSource="Pods" CanBeBuild="true" />
+      <PodSpec Name="gRPC-RxLibrary" Version="1.14.0" TargetName="gRPC-RxLibrary" FrameworkName="RxLibrary" UseDefaultSubSpecs="false" FrameworkSource="Pods" CanBeBuild="true" />
+      <PodSpec Name="gRPC-C++" Version="0.0.3" TargetName="gRPC-C++" FrameworkName="grpcpp" UseDefaultSubSpecs="false" FrameworkSource="Pods" CanBeBuild="true" />
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Firebase.CloudMessaging" NugetVersion="3.1.2" MinimunSupportedVersion="8.0" ComponentGroup="Firebase" CsprojName="CloudMessaging">
+    <PodSpecs>
+      <PodSpec Name="Firebase" Version="5.8.1" TargetName="FirebaseMessaging" FrameworkName="FirebaseMessaging" UseDefaultSubSpecs="false" FrameworkSource="Pods" CanBeBuild="true">
+        <SubSpecs>
+          <SubSpec>Messaging</SubSpec>
+        </SubSpecs>
+      </PodSpec>
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Firebase.Core" NugetVersion="5.2.0" MinimunSupportedVersion="8.0" ComponentGroup="Firebase" CsprojName="Core">
+    <PodSpecs>
+      <PodSpec Name="Firebase" Version="5.16.0" TargetName="FirebaseCore" FrameworkName="FirebaseCore" UseDefaultSubSpecs="false" FrameworkSource="Pods" CanBeBuild="true">
+        <SubSpecs>
+          <SubSpec>CoreOnly</SubSpec>
+        </SubSpecs>
+      </PodSpec>
+      <PodSpec Name="FirebaseAuthInterop" Version="1.0.0" TargetName="FirebaseAuthInterop" FrameworkName="FirebaseAuthInterop" UseDefaultSubSpecs="false" FrameworkSource="Pods" CanBeBuild="false" />
+      <PodSpec Name="GoogleUtilities" Version="5.3.7" TargetName="GoogleUtilities" FrameworkName="GoogleUtilities" UseDefaultSubSpecs="false" FrameworkSource="Pods" CanBeBuild="true">
+        <SubSpecs>
+          <SubSpec>AppDelegateSwizzler</SubSpec>
+          <SubSpec>Environment</SubSpec>
+          <SubSpec>ISASwizzler</SubSpec>
+          <SubSpec>Logger</SubSpec>
+          <SubSpec>MethodSwizzler</SubSpec>
+          <SubSpec>Network</SubSpec>
+          <SubSpec>NSData+zlib</SubSpec>
+          <SubSpec>Reachability</SubSpec>
+          <SubSpec>UserDefaults</SubSpec>
+        </SubSpecs>
+      </PodSpec>
+      <PodSpec Name="GoogleToolboxForMac" Version="2.1.4" TargetName="GoogleToolboxForMac" FrameworkName="GoogleToolboxForMac" UseDefaultSubSpecs="false" FrameworkSource="Pods" CanBeBuild="true">
+        <SubSpecs>
+          <SubSpec>NSData+zlib</SubSpec>
+          <SubSpec>NSDictionary+URLArguments</SubSpec>
+          <SubSpec>Logger</SubSpec>
+          <SubSpec>StringEncoding</SubSpec>
+          <SubSpec>URLBuilder</SubSpec>
+        </SubSpecs>
+      </PodSpec>
+      <PodSpec Name="GoogleAPIClientForREST" Version="1.3.7" TargetName="GoogleAPIClientForREST" FrameworkName="GoogleAPIClientForREST" UseDefaultSubSpecs="true" FrameworkSource="Pods" CanBeBuild="true">
+        <SubSpecs>
+          <SubSpec>Vision</SubSpec>
+        </SubSpecs>
+      </PodSpec>
+      <PodSpec Name="GTMSessionFetcher" Version="1.2.1" TargetName="GTMSessionFetcher" FrameworkName="GTMSessionFetcher" UseDefaultSubSpecs="false" FrameworkSource="Pods" CanBeBuild="true">
+        <SubSpecs>
+          <SubSpec>Full</SubSpec>
+        </SubSpecs>
+      </PodSpec>
+      <PodSpec Name="leveldb-library" Version="1.20.0" TargetName="leveldb-library" FrameworkName="leveldb" UseDefaultSubSpecs="false" FrameworkSource="Pods" CanBeBuild="true" />
+      <PodSpec Name="nanopb" Version="0.3.901" TargetName="nanopb" FrameworkName="nanopb" UseDefaultSubSpecs="false" FrameworkSource="Pods" CanBeBuild="true" />
+      <PodSpec Name="Protobuf" Version="3.6.1" TargetName="Protobuf" FrameworkName="Protobuf" UseDefaultSubSpecs="false" FrameworkSource="Pods" CanBeBuild="true" />
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Firebase.Crashlytics" NugetVersion="3.10.9" MinimunSupportedVersion="8.0" ComponentGroup="Firebase" CsprojName="Crashlytics">
+    <PodSpecs>
+      <PodSpec Name="Crashlytics" Version="3.10.9" TargetName="Crashlytics" FrameworkName="Crashlytics" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true" />
+      <PodSpec Name="Fabric" Version="1.7.13" TargetName="Fabric" FrameworkName="Fabric" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true" />
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Firebase.Database" NugetVersion="5.0.3" MinimunSupportedVersion="8.0" ComponentGroup="Firebase" CsprojName="Database">
+    <PodSpecs>
+      <PodSpec Name="Firebase" Version="5.8.1" TargetName="FirebaseDatabase" FrameworkName="FirebaseDatabase" UseDefaultSubSpecs="false" FrameworkSource="Pods" CanBeBuild="true">
+        <SubSpecs>
+          <SubSpec>Database</SubSpec>
+        </SubSpecs>
+      </PodSpec>
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Firebase.DynamicLinks" NugetVersion="3.0.2.1" MinimunSupportedVersion="8.0" ComponentGroup="Firebase" CsprojName="DynamicLinks">
+    <PodSpecs>
+      <PodSpec Name="Firebase" Version="5.8.1" TargetName="Firebase" FrameworkName="Firebase" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true">
+        <SubSpecs>
+          <SubSpec>DynamicLinks</SubSpec>
+        </SubSpecs>
+      </PodSpec>
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Firebase.InstanceID" NugetVersion="3.4.0" MinimunSupportedVersion="8.0" ComponentGroup="Firebase" CsprojName="InstanceID">
+    <PodSpecs>
+      <PodSpec Name="FirebaseInstanceID" Version="3.4.0" TargetName="FirebaseInstanceID" FrameworkName="FirebaseInstanceID" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true" />
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Firebase.Invites" NugetVersion="3.0.1.2" MinimunSupportedVersion="8.0" ComponentGroup="Firebase" CsprojName="Invites">
+    <PodSpecs>
+      <PodSpec Name="Firebase" Version="5.8.1" TargetName="Firebase" FrameworkName="Firebase" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true">
+        <SubSpecs>
+          <SubSpec>Invites</SubSpec>
+        </SubSpecs>
+      </PodSpec>
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Firebase.MLKit" NugetVersion="0.13.0.1" MinimunSupportedVersion="9.0" ComponentGroup="Firebase" CsprojName="MLKit">
+    <PodSpecs>
+      <PodSpec Name="Firebase" Version="5.13.0" TargetName="Firebase" FrameworkName="Firebase" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true">
+        <SubSpecs>
+          <SubSpec>MLVision</SubSpec>
+          <SubSpec>MLVisionBarcodeModel</SubSpec>
+          <SubSpec>MLVisionFaceModel</SubSpec>
+          <SubSpec>MLVisionLabelModel</SubSpec>
+          <SubSpec>MLVisionTextModel</SubSpec>
+        </SubSpecs>
+      </PodSpec>
+      <PodSpec Name="GoogleMobileVision" Version="1.5.0" TargetName="GoogleMobileVision" FrameworkName="GoogleMobileVision" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true" />
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Firebase.MLKit.Common" NugetVersion="0.13.0" MinimunSupportedVersion="9.0" ComponentGroup="Firebase" CsprojName="MLKit.Common">
+    <PodSpecs>
+      <PodSpec Name="Firebase" Version="5.13.0" TargetName="Firebase" FrameworkName="Firebase" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true">
+        <SubSpecs>
+          <SubSpec>MLCommon</SubSpec>
+        </SubSpecs>
+      </PodSpec>
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Firebase.MLKit.ModelInterpreter" NugetVersion="0.13.0" MinimunSupportedVersion="9.0" ComponentGroup="Firebase" CsprojName="MLKit.ModelInterpreter">
+    <PodSpecs>
+      <PodSpec Name="Firebase" Version="5.13.0" TargetName="Firebase" FrameworkName="Firebase" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true">
+        <SubSpecs>
+          <SubSpec>MLModelInterpreter</SubSpec>
+        </SubSpecs>
+      </PodSpec>
+      <PodSpec Name="TensorFlowLite" Version="1.10.1" TargetName="TensorFlowLite" FrameworkName="TensorFlowLite" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true" />
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Firebase.PerformanceMonitoring" NugetVersion="2.1.2.1" MinimunSupportedVersion="8.0" ComponentGroup="Firebase" CsprojName="PerformanceMonitoring">
+    <PodSpecs>
+      <PodSpec Name="Firebase" Version="5.8.1" TargetName="Firebase" FrameworkName="Firebase" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true">
+        <SubSpecs>
+          <SubSpec>Performance</SubSpec>
+        </SubSpecs>
+      </PodSpec>
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Firebase.RemoteConfig" NugetVersion="3.0.1.1" MinimunSupportedVersion="8.0" ComponentGroup="Firebase" CsprojName="RemoteConfig">
+    <PodSpecs>
+      <PodSpec Name="Firebase" Version="5.8.1" TargetName="Firebase" FrameworkName="Firebase" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true">
+        <SubSpecs>
+          <SubSpec>RemoteConfig</SubSpec>
+        </SubSpecs>
+      </PodSpec>
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Firebase.Storage" NugetVersion="3.0.2" MinimunSupportedVersion="8.0" ComponentGroup="Firebase" CsprojName="Storage">
+    <PodSpecs>
+      <PodSpec Name="Firebase" Version="5.8.1" TargetName="FirebaseStorage" FrameworkName="FirebaseStorage" UseDefaultSubSpecs="false" FrameworkSource="Pods" CanBeBuild="true">
+        <SubSpecs>
+          <SubSpec>Storage</SubSpec>
+        </SubSpecs>
+      </PodSpec>
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Google.Analytics" NugetVersion="3.17.0.3" MinimunSupportedVersion="5.0" ComponentGroup="Google" CsprojName="Analytics">
+    <PodSpecs>
+      <PodSpec Name="GoogleAnalytics" Version="3.17.0" TargetName="GoogleAnalytics" FrameworkName="GoogleAnalytics" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true" />
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Google.AppIndexing" NugetVersion="2.0.3.5" MinimunSupportedVersion="7.0" ComponentGroup="Google" CsprojName="AppIndexing">
+    <PodSpecs>
+      <PodSpec Name="GoogleAppIndexing" Version="2.0.3" TargetName="GoogleAppIndexing" FrameworkName="GoogleAppIndexing" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true" />
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Google.Cast" NugetVersion="4.4.2" MinimunSupportedVersion="8.0" ComponentGroup="Google" CsprojName="Cast">
+    <PodSpecs>
+      <PodSpec Name="google-cast-sdk" Version="4.3.2" TargetName="google-cast-sdk" FrameworkName="google-cast-sdk" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true" />
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Google.Core" NugetVersion="3.1.0.1" MinimunSupportedVersion="7.0" ComponentGroup="Google" CsprojName="Core">
+    <PodSpecs>
+      <PodSpec Name="Google" Version="3.1.0" TargetName="Google" FrameworkName="Google" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true">
+        <SubSpecs>
+          <SubSpec>Core</SubSpec>
+        </SubSpecs>
+      </PodSpec>
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Google.InstanceID" NugetVersion="1.2.1.15" MinimunSupportedVersion="7.0" ComponentGroup="Google" CsprojName="InstanceID">
+    <PodSpecs>
+      <PodSpec Name="GGLInstanceID" Version="1.2.1" TargetName="GGLInstanceID" FrameworkName="GGLInstanceID" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true" />
+      <PodSpec Name="GoogleIPhoneUtilities" Version="1.2.0" TargetName="GoogleIPhoneUtilities" FrameworkName="GoogleIPhoneUtilities" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true" />
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Google.Maps" NugetVersion="3.1.0" MinimunSupportedVersion="9.0" ComponentGroup="Google" CsprojName="Maps">
+    <PodSpecs>
+      <PodSpec Name="GoogleMaps" Version="3.1.0" TargetName="GoogleMaps" FrameworkName="GoogleMaps" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true" />
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Google.MobileAds" NugetVersion="7.38.0" MinimunSupportedVersion="8.0" ComponentGroup="Google" CsprojName="MobileAds">
+    <PodSpecs>
+      <PodSpec Name="Google-Mobile-Ads-SDK" Version="7.38.0" TargetName="Google-Mobile-Ads-SDK" FrameworkName="Google-Mobile-Ads-SDK" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true" />
+      <PodSpec Name="PersonalizedAdConsent" Version="1.0.3" TargetName="PersonalizedAdConsent" FrameworkName="PersonalizedAdConsent" UseDefaultSubSpecs="false" FrameworkSource="Pods" CanBeBuild="true" />
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Google.Places" NugetVersion="3.1.0" MinimunSupportedVersion="9.0" ComponentGroup="Google" CsprojName="Places">
+    <PodSpecs>
+      <PodSpec Name="GooglePlaces" Version="3.1.0" TargetName="GooglePlaces" FrameworkName="GooglePlaces" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true" />
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Google.SignIn" NugetVersion="4.4.0" MinimunSupportedVersion="8.0" ComponentGroup="Google" CsprojName="SignIn">
+    <PodSpecs>
+      <PodSpec Name="GoogleSignIn" Version="4.4.0" TargetName="GoogleSignIn" FrameworkName="GoogleSignIn" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true" />
+    </PodSpecs>
+  </Artifact>
+  <Artifact Id="Google.TagManager" NugetVersion="7.1.1.2" MinimunSupportedVersion="8.0" ComponentGroup="Google" CsprojName="TagManager">
+    <PodSpecs>
+      <PodSpec Name="GoogleTagManager" Version="7.1.1" TargetName="GoogleTagManager" FrameworkName="GoogleTagManager" UseDefaultSubSpecs="false" FrameworkSource="Targets" CanBeBuild="true" />
+    </PodSpecs>
+  </Artifact>
+</Artifacts>

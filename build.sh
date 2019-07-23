@@ -17,6 +17,7 @@ PACKAGES_CONFIG=$TOOLS_DIR/packages.config
 PACKAGES_CONFIG_MD5=$TOOLS_DIR/packages.config.md5sum
 ADDINS_PACKAGES_CONFIG=$ADDINS_DIR/packages.config
 MODULES_PACKAGES_CONFIG=$MODULES_DIR/packages.config
+POCO_DLL=$SCRIPT_DIR/Poco.dll
 
 # Define md5sum or md5 depending on Linux/OSX
 MD5_EXE=
@@ -116,6 +117,12 @@ fi
 if [ ! -f "$CAKE_EXE" ]; then
     echo "Could not find Cake.exe at '$CAKE_EXE'."
     exit 1
+fi
+
+# Build classes for cake scripts
+if [ ! -f "$POCO_DLL" ]; then
+    dotnet build "$SCRIPT_DIR/poco/Poco.csproj"
+    find "$SCRIPT_DIR/poco/bin/" -type f -name "Poco.dll" | xargs -I {} mv {} "$POCO_DLL"
 fi
 
 # Start Cake

@@ -1,5 +1,3 @@
-#load "poco.cake"
-
 void AddArtifactDependencies (List<Artifact> list, Artifact [] dependencies)
 {
 	if (dependencies == null)
@@ -39,7 +37,7 @@ void CreateAndInstallPodfile (Artifact artifact)
 			continue;
 		}
 
-		if (podSpec.UseDefaultSubspecs)
+		if (podSpec.UseDefaultSubSpecs)
 			podfile.Add ($"\tpod '{podSpec.Name}', '{podSpec.Version}'");
 
 		foreach (var subSpec in podSpec.SubSpecs)

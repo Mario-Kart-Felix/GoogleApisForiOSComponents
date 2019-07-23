@@ -5,9 +5,14 @@
 #addin nuget:?package=Cake.Xamarin&version=3.0.0
 #addin nuget:?package=Cake.FileHelpers&version=3.0.0
 
-#load "poco.cake"
-#load "components.cake"
+#r "./Poco.dll"
+
+using Poco;
+using System.Xml;
+using System.Xml.Serialization;
+
 #load "common.cake"
+#load "components.cake"
 #load "custom_externals_download.cake"
 
 var TARGET = Argument ("t", Argument ("target", "build"));
@@ -96,8 +101,9 @@ Task("prepare-artifacts")
 	.IsDependeeOf("externals")
 	.Does(() =>
 {
+	DeserializeArtifacts ();
+	SetArtifacts ();
 	SetArtifactsDependencies ();
-	SetArtifactsPodSpecs ();
 
 	var orderedArtifactsForBuild = new List<Artifact> ();
 
