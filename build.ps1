@@ -53,6 +53,8 @@ $NUGET_URL = "http://dist.nuget.org/win-x86-commandline/latest/nuget.exe"
 $CAKE_EXE = Join-Path $TOOLS_DIR "Cake/Cake.exe"
 $PACKAGES_CONFIG = Join-Path $TOOLS_DIR "packages.config"
 $CAKE_PACKAGES_CONFIG = Join-Path $PSScriptRoot "cake.packages.config"
+$POCO_PROJECT = Join-Path $PSScriptRoot "poco/Poco.csproj"
+$POCO_DLL = Join-Path $PSScriptRoot "Poco.dll"
 
 # Should we use mono?
 $UseMono = "";
@@ -136,8 +138,9 @@ if(-Not $SkipToolPackageRestore.IsPresent)
 }
 
 # Make sure that Cake has been installed.
-if (!(Test-Path $CAKE_EXE)) {
-    Throw "Could not find Cake.exe at $CAKE_EXE"
+if (!(Test-Path $POCO_DLL)) {
+    Invoke-Expression "& dotnet build `"$POCO_PROJECT`""
+    Get-ChildItem -Path .\poco\bin\ -Include Poco.dll -File -Recurse | Move-Item -Destination $PSScriptRoot
 }
 
 # Start Cake
